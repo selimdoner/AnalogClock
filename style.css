@@ -1,0 +1,97 @@
+
+body {
+   background:url("https://wallpaperaccess.com/full/192301.jpg");
+   background-size:1360px 700px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.hd2{
+    margin: 0;
+    text-transform: uppercase;
+    font-family:Copperplate, Papyrus, fantasy;
+    letter-spacing: 3px;
+    font-size: 10px;
+    color:whitesmoke;
+    margin-left: 50px;
+        
+}
+#ssd{
+    font-family:Copperplate, Papyrus, fantasy;
+    letter-spacing: 3px;
+    font-size: 10px;
+    color:whitesmoke;
+    margin-top: 420px;
+    margin-left: 50px;
+   
+}
+
+.clocks{
+    margin: 0;
+    display: flex;
+    font-family:Copperplate, Papyrus, fantasy;
+    font-weight:bold;
+    letter-spacing: 3px;
+    font-size: 25px;
+    color:whitesmoke;
+    margin-left: 70px;
+}
+
+#ampm{
+    align-items: center;
+    justify-content: center;
+    font-family:sans-serif;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    color: black;
+    background:whitesmoke;
+}
+
+.clock{
+    position: absolute;
+    display: flex;
+    width:1360px;
+    height: 500px;
+    margin-left: 85px;
+    margin-top: 30px;
+    
+    
+}
+#hour,
+#minute,
+#second {
+    position: absolute;
+    display:flex;
+    background:black;
+    border-radius: 10px;
+    transform-origin:bottom;
+    
+   
+}
+  
+#hour {
+    width: 0.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    box-shadow: 2px 2px 5px#4E1C11;
+
+}
+    
+#second {
+    width: .8%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+    background:#4E1C11;
+}
+
+#minute {
+    width: 0.8%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    box-shadow: 2px 2px 5px#4E1C11;
+}
+
